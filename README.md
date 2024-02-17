@@ -6,7 +6,7 @@ This repository contains merge history prior to that migration.
 # GlassFish Samples
 
 This repository contains the source files for the
-[GlassFish Samples](https://javaee.github.io/glassfish-samples) that are delivered with the 
+[GlassFish Samples](https://javaee.github.io/glassfish-samples) that are delivered with the
 Java EE SDK.
 
 This software is provided to you under the terms described in
@@ -20,8 +20,8 @@ GitHub and file an [Issue](https://github.com/javaee/glassfish-samples/issues).
 
 If you are interested in contributing to this project, read the following pages:
 
-* [Contributing](CONTRIBUTING.md)
-* [License](LICENSE)
+- [Contributing](CONTRIBUTING.md)
+- [License](LICENSE)
 
 # Building the Java EE 8 Samples
 
@@ -29,14 +29,19 @@ If you are interested in contributing to this project, read the following pages:
 
 - Maven
 - JDK8+
+
+```
+mise use -g java@adoptopenjdk-8.0.202+8
+```
+
 - GlassFish 5
 
 ## Build the Examples
 
 To build the Java EE 8 GlassFish Samples:
 
-* Clone this repository.
-* From the `ws/javaee8` directory, run
+- Clone this repository.
+- From the `ws/javaee8` directory, run
 
 ```
 mvn install
